@@ -1,0 +1,8 @@
+<h1>Home</h1>
+<%= @Users_for_print %>
+<%= @Todos %>
+<% @Todos.each do |t| %>
+  <p> <%= t.name %> </p>
+  <p> <%= t.description %></p>
+<% end %>
+<%= @Cats %>
